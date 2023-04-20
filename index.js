@@ -5,7 +5,7 @@ const SERVICE_NAME='mymicroservice';
 const SERVICE_ID='m'+process.argv[3];
 const SCHEME='http';
 const HOST= process.argv[2];
-const PORT= process.argv[3];
+const PORT= parseInt(process.argv[3]);
 const PID = process.pid;
 
 /* Inicializacion del server */
